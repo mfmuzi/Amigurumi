@@ -1,8 +1,8 @@
 ## Amigurumi e-commerce
 
-​		Neste projeto foi desenvolvido um e-commerce para Amigurumis. O Back-end foi desenvolvido em Node.js e o Postgres foi escolhido como banco de dados. Já o Front-end, foi desenvolvido em Reat.
+​		Neste projeto foi desenvolvido um e-commerce para Amigurumis. O Back-end foi desenvolvido em Node.js e o Postgres foi escolhido como banco de dados. Já o Front-end, foi desenvolvido em React.
 
-​		Com a aplicação é possível escolher os ítens para compra (Amigurumis) e no carrinho é possível fazer a adição ou a retirada de ítens. Na aba contatos, pode-se deixar mensagens, sendo essa a integração com o banco de dados.
+​		Com a aplicação é possível escolher os itens para compra (Amigurumis) e no carrinho é possível fazer a adição ou a retirada de itens. Na aba contatos, pode-se deixar mensagens, sendo essa a integração com o banco de dados.
 
 
 
@@ -25,14 +25,16 @@ docker run --name default -d -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_
   - Para rodar o Back-end: entrar na pasta backend e rodar o comando no console:
 
     ```
+    npm install
     npm start
     ```
-
+  
     
-
-  - Para rodar o Fron-end: entrar na pasta shopping e executar o comando no console:
-
+  
+  - Para rodar o Front-end: entrar na pasta shopping e executar o comando no console:
+  
     ```
+    npm install
     npm start
     ```
 
